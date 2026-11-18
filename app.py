@@ -25,11 +25,7 @@ st.caption(
     "Prediction and Energy Optimization System"
 )
 
-import os
-
-ZIP_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)),
-    "archive (1).zip"
+ZIP_PATH = "/content/archive (1).zip"
 )
 
 print("Dataset path:", ZIP_PATH)
